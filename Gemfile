@@ -4,4 +4,5 @@ source 'https://rubygems.org'
 
 gemspec
 
-gem 'r18n-core', path: '../r18n-core'
+gem 'r18n-core', github: 'r18n/r18n-core'
+# gem 'r18n-core', path: '../r18n-core'
