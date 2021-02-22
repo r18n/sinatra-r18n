@@ -3,13 +3,15 @@
     ## https://github.com/docker-library/ruby/issues/45
     LANG: C.UTF-8
   bundle_cache:
-    folder: /usr/local/bundle
+    folder: vendor/bundle
     fingerprint_script:
       - echo $CIRRUS_TASK_NAME:$CIRRUS_OS
       - ruby -v
       - cat Gemfile
       - cat *.gemspec
-    populate_script: bundle update
+    populate_script:
+      - bundle config set --local path 'vendor/bundle'
+      - bundle update
 
 remark_task:
   container:
