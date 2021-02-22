@@ -9,9 +9,9 @@
       - ruby -v
       - cat Gemfile
       - cat *.gemspec
-    populate_script:
-      - bundle config set --local path 'vendor/bundle'
-      - bundle update
+  install_script:
+    - bundle config set --local path 'vendor/bundle'
+    - bundle update
 
 remark_task:
   container:
