@@ -1,5 +1,12 @@
 # Sinatra R18n Plugin
 
+[![Cirrus CI - Base Branch Build Status](https://img.shields.io/cirrus/github/r18n/sinatra-r18n?style=flat-square)](https://cirrus-ci.com/github/r18n/sinatra-r18n)
+[![Codecov branch](https://img.shields.io/codecov/c/github/r18n/sinatra-r18n/master.svg?style=flat-square)](https://codecov.io/gh/r18n/sinatra-r18n)
+[![Code Climate](https://img.shields.io/codeclimate/maintainability/r18n/sinatra-r18n.svg?style=flat-square)](https://codeclimate.com/github/r18n/sinatra-r18n)
+[![Depfu](https://img.shields.io/depfu/r18n/sinatra-r18n?style=flat-square)](https://depfu.com/repos/github/r18n/sinatra-r18n)
+[![License](https://img.shields.io/github/license/r18n/sinatra-r18n.svg?style=flat-square)](LICENSE)
+[![Gem](https://img.shields.io/gem/v/sinatra-r18n.svg?style=flat-square)](https://rubygems.org/gems/sinatra-r18n)
+
 Sinatra extension which provides i18n support to translate your web application.
 
 It is a wrapper for [R18n core library](https://github.com/r18n/r18n-core).
