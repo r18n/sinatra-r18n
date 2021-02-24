@@ -3,6 +3,14 @@
 require 'pp'
 require 'pry-byebug'
 
+require 'simplecov'
+SimpleCov.start
+
+if ENV['CODECOV_TOKEN']
+  require 'codecov'
+  SimpleCov.formatter = SimpleCov::Formatter::Codecov
+end
+
 ENV['RACK_ENV'] = 'test'
 require_relative 'app/app'
 
