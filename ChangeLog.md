@@ -2,6 +2,17 @@
 
 ## Unreleased
 
+## 5.0.0 (Warszawa) (2021-03-04)
+
+* Take out `sinatra-r18n` gem from mono-repository.
+* Avoid Ruby 4 in gem specs.
+* Add metadata to gem specs.
+* Add Alexander Popov as a gem author.
+* Replace `rake` with `toys`.
+* Add Codecov and SimpleCov.
+* Update RuboCop configuration.
+* Add badges into README.
+
 ## 4.0.0 (Santiago)
 
 * Drop Ruby 2.3 support (by Alexander Popov).
