@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 5.0.1 (Ą) (2021-03-04)
+
+* Update version 5 ChangeLog to more complete and actual.
+
 ## 5.0.0 (Warszawa) (2021-03-04)
 
 * Take out `sinatra-r18n` gem from mono-repository.
