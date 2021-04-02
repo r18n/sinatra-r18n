@@ -71,6 +71,9 @@ for more information.
     end
     ```
 
+    **Warning**: such hooks have to be before `register Sinatra::R18n` since R18n version 5
+    has no more lazy evaluation and initializes immediately. See #3 or specs / test application.
+
 5.  Use translation messages in views. For example in HAML:
     ```haml
     %p= t.post.friends

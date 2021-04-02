@@ -9,6 +9,9 @@
 ## 5.0.0 (Warszawa) (2021-03-04)
 
 * Take out `sinatra-r18n` gem from mono-repository.
+* Change lazy R18n initialization to immediate
+  Now all hooks for R18n have to be before its registration.
+  See #3.
 * Drop Ruby 2.4 support.
 * Support Ruby 3.
 * Avoid Ruby 4 in gem specs.
