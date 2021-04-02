@@ -1,10 +1,6 @@
 # frozen_string_literal: true
 
 describe Sinatra::R18n do
-  before(:all) do
-    Sinatra::R18n.registered(app)
-  end
-
   after do
     app.set :default_locale, 'en'
     app.set :environment, :test
@@ -78,6 +74,12 @@ describe Sinatra::R18n do
     get '/locale', {}
     expect(last_response).to be_ok
     expect(last_response.body).to eq 'English'
+  end
+
+  it 'works with locale from custom param via `before` hook' do
+    get '/locale', lang: 'ru'
+    expect(last_response).to be_ok
+    expect(last_response.body).to eq 'Русский'
   end
 
   it 'returns locales list' do
