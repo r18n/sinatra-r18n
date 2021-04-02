@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 5.0.2 (Б) (2021-04-02)
+
+* Add specs and documentation about skipped breaking change in version 5.
+
 ## 5.0.1 (Ą) (2021-03-04)
 
 * Update version 5 ChangeLog to more complete and actual.
