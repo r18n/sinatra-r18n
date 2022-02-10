@@ -6,6 +6,10 @@ require:
 AllCops:
   TargetRubyVersion: 2.5
   NewCops: enable
+  Exclude:
+    <% `git status --ignored --porcelain`.lines.grep(/^!! /).each do |path| %>
+      - <%= path.sub(/^!! /, '') %>
+    <% end %>
 
 inherit_mode:
   merge:
