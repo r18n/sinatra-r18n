@@ -32,6 +32,7 @@ Gem::Specification.new do |s|
     'changelog_uri' => "#{github_uri}/blob/#{s.version}/ChangeLog.md",
     'documentation_uri' => "http://www.rubydoc.info/gems/#{s.name}/#{s.version}",
     'homepage_uri' => s.homepage,
+    'rubygems_mfa_required' => 'true',
     'source_code_uri' => github_uri
   }
 
