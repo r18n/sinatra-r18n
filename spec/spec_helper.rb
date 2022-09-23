@@ -12,6 +12,10 @@ end
 
 SimpleCov.start
 
+RSpec.configure do |config|
+  config.example_status_persistence_file_path = "#{__dir__}/examples.txt"
+end
+
 ENV['RACK_ENV'] = 'test'
 require_relative 'app/app'
 

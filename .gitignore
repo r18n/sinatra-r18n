@@ -4,6 +4,7 @@
 pkg/
 log/
 coverage/
+/spec/examples.txt
 
 .bundle
 Gemfile.lock
