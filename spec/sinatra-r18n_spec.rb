@@ -4,7 +4,7 @@ describe Sinatra::R18n do
   after do
     app.set :default_locale, 'en'
     app.set :environment, :test
-    ::R18n.thread_set nil
+    R18n.thread_set nil
   end
 
   it 'translates messages' do
