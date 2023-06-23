@@ -40,18 +40,4 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'r18n-core', '~> 5.0'
   s.add_dependency 'sinatra', '>= 1.3', '< 4'
-
-  s.add_development_dependency 'pry-byebug', '~> 3.9'
-
-  s.add_development_dependency 'gem_toys', '~> 0.12.1'
-  s.add_development_dependency 'toys', '~> 0.14.2'
-
-  s.add_development_dependency 'rubocop', '~> 1.52.1'
-  s.add_development_dependency 'rubocop-performance', '~> 1.9'
-  s.add_development_dependency 'rubocop-rake', '~> 0.6.0'
-
-  s.add_development_dependency 'rack-test', '~> 2.0'
-  s.add_development_dependency 'rspec', '~> 3.10'
-  s.add_development_dependency 'simplecov', '~> 0.22.0'
-  s.add_development_dependency 'simplecov-cobertura', '~> 2.1'
 end
