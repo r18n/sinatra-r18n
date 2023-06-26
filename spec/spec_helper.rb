@@ -28,7 +28,10 @@ module RSpecMixinExample
   end
 end
 
-RSpec.configure { |c| c.include RSpecMixinExample }
+RSpec.configure do |c|
+  c.include RSpecMixinExample
+  c.disable_monkey_patching!
+end
 
 set :environment, :test
 set :root, File.join(__dir__, 'app')
