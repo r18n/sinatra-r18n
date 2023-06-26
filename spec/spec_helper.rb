@@ -31,4 +31,4 @@ end
 RSpec.configure { |c| c.include RSpecMixinExample }
 
 set :environment, :test
-set :root, File.join(File.dirname(__FILE__), 'app')
+set :root, File.join(__dir__, 'app')
