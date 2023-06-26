@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-describe Sinatra::R18n do
+RSpec.describe Sinatra::R18n do
   after do
     app.set :default_locale, 'en'
     app.set :environment, :test
