@@ -26,8 +26,8 @@ module Sinatra
   module R18n
     def self.registered(app)
       app.helpers ::R18n::Helpers
-      app.set :default_locale, (proc { ::R18n::I18n.default })
-      app.set :translations,   (proc { ::R18n.default_places })
+      app.set :default_locale, proc { ::R18n::I18n.default }
+      app.set :translations, proc { ::R18n.default_places }
 
       ::R18n.default_places { File.join(app.root, 'i18n') }
 
