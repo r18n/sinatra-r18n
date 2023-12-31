@@ -46,6 +46,7 @@ test_task:
       image: ruby:3.0
       image: ruby:3.1
       image: ruby:3.2
+      image: ruby:3.3
 
   test_script: bundle exec rspec
 
