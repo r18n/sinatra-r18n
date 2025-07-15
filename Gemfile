@@ -21,7 +21,7 @@ group :test do
   gem 'rack-test', '~> 2.0'
   gem 'rspec', '~> 3.10'
   gem 'simplecov', '~> 0.22.0'
-  gem 'simplecov-cobertura', '~> 2.1'
+  gem 'simplecov-cobertura', '~> 3.0'
 end
 
 gem 'r18n-core', github: 'r18n/r18n-core'
