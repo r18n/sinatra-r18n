@@ -39,5 +39,5 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 3.0', '< 4'
 
   s.add_dependency 'r18n-core', '~> 5.0'
-  s.add_dependency 'sinatra', '>= 1.3', '<= 4.0.0'
+  s.add_dependency 'sinatra', '>= 1.3', '<= 4.2.1'
 end
