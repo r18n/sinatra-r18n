@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 6.0.1 (Ω) (2026-02-17)
+
+* Fix `r18n-core` runtime dependency version.
+
 ## 6.0.0 (Нови Сад) (2026-02-17)
 
 * Drop Ruby 2.5, 2.6, 2.7, 3.0 and 3.1 support.
