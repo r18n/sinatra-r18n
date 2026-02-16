@@ -36,7 +36,7 @@ Gem::Specification.new do |s|
     'source_code_uri' => github_uri
   }
 
-  s.required_ruby_version = '>= 3.2', '< 4'
+  s.required_ruby_version = '>= 3.2', '< 5'
 
   s.add_dependency 'r18n-core', '~> 5.0'
   s.add_dependency 'sinatra', '~> 4.0'
