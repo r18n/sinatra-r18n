@@ -20,7 +20,7 @@ end
 group :test do
   gem 'rack-test', '~> 2.0'
   gem 'rspec', '~> 3.10'
-  gem 'simplecov', '~> 0.22.0'
+  gem 'simplecov', '~> 1.3.1'
   gem 'simplecov-cobertura', '~> 3.1'
 end
 
